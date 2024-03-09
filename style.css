@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Unbounded";
+  src: url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+}
+
+body {
+  background-color: #000000;
+}
+
+/* Typography */
+
+h1 {
+  color: #fff;
+  font-family: Unbounded;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h1 span.pink-accent {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fe2784;
+}
+
+h2 {
+  font-family: "Unbounded";
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fe2784;
+}
+h3 {
+  font-family: "Unbounded";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fe2784;
+}
+h4 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+p.flavor {
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+p.subtitle {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+p.eyebrow {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #fff;
+}
+
+/*Header*/
+a {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Buttons */
+a.btn {
+  width: Hug (153px);
+  height: Hug (44px);
+  padding: 12px, 20px, 12px, 20px;
+  border-radius: 48px;
+  border: 1.6px;
+  gap: 12px;
+  border: 1.6px solid #f0eade33;
+  background: #292524;
+  padding: 0.75em;
+  text-transform: capitalize;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+a.primary-cta {
+  width: Hug (217px);
+  height: Hug (52px);
+  top: 674px;
+  left: 612px;
+  padding: 16px, 20px, 16px, 20px;
+  border-radius: 48px;
+  border: 1.6px;
+  gap: 12px;
+  background: #FE2784;
+  border: 1.6px solid #F0EADE33;
+  padding: 0.7em;
+}
