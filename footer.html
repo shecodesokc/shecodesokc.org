@@ -1,0 +1,154 @@
+<!--<section>
+    <div class="container">
+        <div class="column">
+                <div class="content-eyebrow">
+                    Featured Members
+                </div>
+                <div class="link">
+                    January
+                </div>
+                <div class="link">
+                    February
+                </div>
+                <div class="link">
+                    March
+                </div>
+        </div>
+        <div class="column column-wide">
+                <h3 class="header-member">Member of the Month</h3>
+                <p>Our network includes over 400 diverse technologists in Oklahoma.</p>
+                <h3 class="header-member">Our Speakers</h3>
+                <p>We hold a wide range of events from speakers workshops to expert panels.</p>
+        </div>
+    </div>
+</section>-->
+
+<section>
+    <div class="container">
+        <div class="flourish-pink"></div>
+    </div>
+</section>
+<section>
+    <div class="container container-blue">
+        <div class="content-sponsor">
+            <div class="content-eyebrow">
+                <p>Thank You</p>
+            </div>
+            <div class="content-head">
+                <div>Our</div>
+                <div>Sponsors</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-wheel">
+            <div class="content-individual content-individual-blue" >
+                Techlahoma user-group sponsor. Techlahoma is a professional network of more than 5,000 information technology workers, hobbyists, students, teachers, and future technologists.
+            </div>
+            <div class="content-individual">
+                Techlahoma user-group sponsor. Techlahoma is a professional network of more than 5,000 information technology workers, hobbyists, students, teachers, and future technologists.
+            </div>
+
+            <div class="content-individual content-individual-pink">
+                Techlahoma user-group sponsor. Techlahoma is a professional network of more than 5,000 information technology workers, hobbyists, students, teachers, and future technologists.
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="flourish-yellow"></div>
+    </div>
+</section>
+<section>
+    <div class="container container-collab">
+        <div class="column">
+            <div class="content-eyebrow">
+                <p>Get Involved</p>
+            </div>
+            <div>
+                <img src="./static/collaborate.png" alt="Collaborate" class="img-collab">
+            </div>
+        </div>
+        <div class="column">
+            <input type="text" />
+            <button>Submit -></button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-block">
+            <img src="./static/logo.svg" alt="SheCodesOKC logo in white and pink" class="logo">
+        </div>
+        <div class="footer-block footer-block-center">
+            <div class="link">
+                <a href="#">
+                    Events
+                </a> 
+            </div>
+            <div class="link">
+                <a href="#">
+                    About
+                </a> 
+            </div>
+            <div class="link">
+                <a href="#">
+                    Get Involved
+                </a>
+            </div>
+        </div>
+        <div class="footer-block footer-block-right">
+            <img src="./static/slack.png" alt="Join us in Slack on Techlahoma">
+        </div>
+    </div>
+</footer>
+
+<style>
+    body {background-color: rgb(25, 29, 29); color: white; }
+    a {color: white; text-transform: uppercase; }
+    .logo { height: 100%; }
+    .img-collab { width: 100%; }
+    .link { align-self: flex-end; }
+    .container { display: flex; justify-content: space-evenly; }
+    .container-blue { background-image: url('./static/bluestar.png'); 
+                        background-position: right; 
+                        background-repeat: no-repeat; 
+                        background-size: 10vw; }
+    .container-collab { background-image: url('./static/animated_stars.svg'); background-size: 100vw;
+                            background-position-y: center; background-repeat: no-repeat;
+                        background-position-x: 30vw;}
+    .column { width: 30vw; text-align: center; padding: 40px; align-self: flex-end;}
+    .column-wide { width: 66vw }
+    .content-eyebrow { text-transform: uppercase; text-align: left; margin-bottom: 0px}
+    .content-sponsor { margin-top: 0vh; margin-bottom: 10vh;  background-image: url('./static/animated_stars.svg')}
+    .content-wheel { width: 100vw; display: flex;}
+    .content-head { text-transform: uppercase; text-align: left; font-size: 5rem; margin-top: 0vh; margin-bottom: 0vh; 
+    color: #FE2784;
+    transform: rotate(5deg);
+}
+
+    .content-individual { width: 60vw; background-color: #AA98F3; padding: 40px; border-radius: 20px; margin: 20px; }
+    .content-individual-blue { background-color: #2F98FB}
+    .content-individual-pink { background-color: #FE2784} 
+
+    .flourish-pink { background-image: url('./static/pinkstar.png'); 
+    height: 10vw; 
+    width: 100vw;
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: left; 
+    padding: 0px; margin: 0px;}
+
+    .flourish-yellow { background-image: url('./static/yellowstar.png'); 
+    height: 10vw; 
+    width: 100vw;
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: top; }
+
+    .footer-block { width: 33vw; height: 10vh; padding: 40px;}
+    .footer-block-center { display: flex; text-align: center; justify-content: space-evenly;}
+    .footer-block-right { text-align: right; }
+</style>
