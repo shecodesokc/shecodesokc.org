@@ -124,6 +124,7 @@ a.btn {
 }
 a.primary-cta {
   width: Hug (217px);
+  max-width: 217px;
   height: Hug (52px);
   top: 674px;
   left: 612px;
@@ -131,10 +132,47 @@ a.primary-cta {
   border-radius: 48px;
   border: 1.6px;
   gap: 12px;
-  background: #FE2784;
-  border: 1.6px solid #F0EADE33;
-  padding: 0.7em;
+  background: #fe2784;
+  border: 1.6px solid #f0eade33;
+  padding: 1em;
+  color: #000;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+a.primary-cta:after {
+  width: 25px;
+  height: 20px; 
+  content: url("assets/arrow.svg");
+  padding: 0px 10px;
 }
 
-
-/* section 1 */
+/* Hero */
+section.hero {
+  display: flex;
+  flex-direction: column;
+}
+.tc-container {
+  width: 329px;
+  position: absolute;
+  top: 190px;
+  left: 556px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tc1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tc2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+}
